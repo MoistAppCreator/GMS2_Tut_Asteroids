@@ -10,5 +10,6 @@ gun_offset_y = -50
 
 main_sprite = spr_player_ship_light;
 turn_sprite = spr_player_ship_light_tilt;
+shoot_sprite = spr_player_ship_light_fire;
 
 ps_array = part_system_create_layer("Particles",false,ps_booster)

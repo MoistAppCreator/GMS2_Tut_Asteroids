@@ -2,21 +2,23 @@ var _dir = point_direction(x, y, mouse_x, mouse_y);
 var _diff = angle_difference(_dir, image_angle);
 if is_shooting{
 	image_angle += _diff * turn_speed_shooting;
+	sprite_index = shoot_sprite;
 }else{
 	image_angle += _diff * turn_speed_normal;
-}
-if _diff > turn_tolerance or _diff < -turn_tolerance{
-	sprite_index = turn_sprite;
-	if _diff > 0{
+	if _diff > turn_tolerance or _diff < -turn_tolerance{
+		sprite_index = turn_sprite;
+		if _diff > 0{
+			image_yscale = 1;
+		}
+		if _diff < 0{
+			image_yscale = -1;
+		}
+	}else{
+		sprite_index = main_sprite;
 		image_yscale = 1;
 	}
-	if _diff < 0{
-		image_yscale = -1;
-	}
-}else{
-	sprite_index = main_sprite;
-	image_yscale = 1;
 }
+
 
 
 move_wrap(true,true,100);
@@ -39,6 +41,7 @@ if mouse_check_button(mb_left){
 }else{
 	is_shooting = false;
 }
+
 
 part_system_position(ps_array,x,y)
 part_system_angle(ps_array,image_angle)
