@@ -1,5 +1,6 @@
 move_speed = 0.1;
 is_boosting = false;
+boost_timer = 2;
 is_shooting = false;
 turn_speed_normal = 0.1;
 turn_speed_shooting = 0.01;
@@ -12,4 +13,3 @@ main_sprite = spr_player_ship_light;
 turn_sprite = spr_player_ship_light_tilt;
 shoot_sprite = spr_player_ship_light_fire;
 
-ps_array = part_system_create_layer("Particles",false,ps_booster)

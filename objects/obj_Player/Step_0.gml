@@ -42,14 +42,12 @@ if mouse_check_button(mb_left){
 	is_shooting = false;
 }
 
-
-part_system_position(ps_array,x,y)
-part_system_angle(ps_array,image_angle)
-
-//if is_boosting{
-//	image_xscale = 1;
-//	image_yscale = 1;
-//}else{
-//	image_xscale = 0.5;
-//	image_yscale = 0.5;
-//}
+if is_boosting{
+	motion_add(image_angle,move_speed);
+	if alarm_get(1) <= 0{
+		var _booster_flame = instance_create_layer(x, y, "Instances", obj_booster_particle);
+		_booster_flame.direction = image_angle+(180* random_range(0.9,1));
+		_booster_flame.image_angle = image_angle + 180;
+		alarm[1] = boost_timer;
+	}
+}
