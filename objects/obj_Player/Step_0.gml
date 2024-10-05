@@ -43,7 +43,7 @@ if mouse_check_button(mb_left){
 }
 
 if is_boosting{
-	motion_add(image_angle,move_speed);
+	motion_add(image_angle, move_speed);
 	if alarm_get(1) <= 0{
 		var _booster_flame = instance_create_layer(x, y, "Instances", obj_booster_particle);
 		_booster_flame.direction = image_angle+(180* random_range(0.9,1));

@@ -26,7 +26,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"light_ship_obj","filters":[],"listItems":[],"multiselect":false,"name":"light_ship_obj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_player_light","path":"objects/obj_player_light/obj_player_light.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_player_light","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"medium_ship_obj","filters":[],"listItems":[],"multiselect":false,"name":"medium_ship_obj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_player_medium","path":"objects/obj_player_medium/obj_player_medium.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_player_medium","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"heavy_ship_obj","filters":[],"listItems":[],"multiselect":false,"name":"heavy_ship_obj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_player_heavy","path":"objects/obj_player_heavy/obj_player_heavy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_player_heavy","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
