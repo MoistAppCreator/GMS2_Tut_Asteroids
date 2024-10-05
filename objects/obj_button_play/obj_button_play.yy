@@ -9,7 +9,7 @@
   "name":"obj_button_play",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_down_sprite","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bar_round_large",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_down_sprite","path":"objects/obj_button_parent/obj_button_parent.yy",},"resource":{"name":"spr_bar_round_large","path":"sprites/spr_bar_round_large/spr_bar_round_large.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bar_round_large",},
   ],
   "parent":{
     "name":"MenuObjects",

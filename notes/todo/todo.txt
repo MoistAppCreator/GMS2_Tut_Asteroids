@@ -11,8 +11,6 @@ more enemies and respawn
 menus: options
 pause menu
 
-change enemy esplo
-
 find out coloring one line of text
 
 highscore screen
