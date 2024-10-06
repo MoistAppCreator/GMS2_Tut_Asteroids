@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_star_explosion_without_build_up",
-    "path":"sprites/spr_star_explosion_without_build_up/spr_star_explosion_without_build_up.yy",
+    "name":"sprEnemyPlasmaEmit",
+    "path":"sprites/sprEnemyPlasmaEmit/sprEnemyPlasmaEmit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

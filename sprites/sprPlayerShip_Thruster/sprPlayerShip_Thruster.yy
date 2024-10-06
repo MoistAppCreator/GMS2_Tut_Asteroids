@@ -28,7 +28,7 @@
   ],
   "name":"sprPlayerShip_Thruster",
   "nineSlice":null,
-  "origin":3,
+  "origin":9,
   "parent":{
     "name":"Ship",
     "path":"folders/Sprites/Player/Ship.yy",
@@ -95,7 +95,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":40,
     "yorigin":94,
   },
   "swatchColours":null,

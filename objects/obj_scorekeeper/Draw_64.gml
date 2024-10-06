@@ -1,1 +1,0 @@
-draw_text(x,y,obj_game.points);
