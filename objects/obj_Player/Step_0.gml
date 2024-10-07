@@ -8,14 +8,14 @@ if is_shooting{
 	if _diff > turn_tolerance or _diff < -turn_tolerance{
 		sprite_index = turn_sprite;
 		if _diff > 0{
-			image_yscale = 1;
+			image_yscale *= 1;
 		}
 		if _diff < 0{
-			image_yscale = -1;
+			image_yscale *= -1;
 		}
 	}else{
 		sprite_index = main_sprite;
-		image_yscale = 1;
+		image_yscale *= 1;
 	}
 }
 
