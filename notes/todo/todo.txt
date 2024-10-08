@@ -8,6 +8,5 @@ sounds
 more enemies and respawn
 
 menus: options
-pause menu
 
 highscore screen

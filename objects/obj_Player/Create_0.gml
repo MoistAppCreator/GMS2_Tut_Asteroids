@@ -14,7 +14,5 @@ sprite_index		= main_sprite
 image_xscale		= 0.5;
 image_yscale		= 0.5;
 
-//main_sprite = spr_player_ship_light;
-//turn_sprite = spr_player_ship_light_tilt;
-//shoot_sprite = spr_player_ship_light_fire;
+player_hp			= 1;
 
