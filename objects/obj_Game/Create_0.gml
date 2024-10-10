@@ -1,9 +1,8 @@
-game_runtime		= 0;
-
+game_wave_clear		= 0;
 
 points				= 0;
 is_gameover			= false;
 
-var _spawned_player	= instance_create_layer(500, 500, "Instances", light_ship_obj);
+enemies_layer		= layer_get_id("Enemies");
 
-alarm[3] = 120;
+var _spawned_player	= instance_create_layer(500, 500, "Player", light_ship_obj);

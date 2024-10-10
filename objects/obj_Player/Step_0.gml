@@ -32,7 +32,7 @@ if mouse_check_button(mb_left){
 			
 		var _bullet_spawn_y = y + gun_offset_y*dcos(image_angle) - gun_offset_y*dsin(image_angle);
 
-		var _bullet = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Instances", obj_bullet);
+		var _bullet = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Player", obj_bullet);
 		_bullet.direction = image_angle;
 		_bullet.image_angle = image_angle;
 
@@ -51,7 +51,7 @@ if mouse_check_button(mb_right){
 if is_boosting or is_mouse_boosting{
 	motion_add(image_angle, move_speed);
 	if alarm_get(1) <= 0{
-		var _booster_flame = instance_create_layer(x, y, "Instances", obj_booster_particle);
+		var _booster_flame = instance_create_layer(x, y, "Player", obj_booster_particle);
 		_booster_flame.direction = image_angle+(180* random_range(0.9,1));
 		_booster_flame.image_angle = image_angle + 180;
 		alarm[1] = boost_timer;

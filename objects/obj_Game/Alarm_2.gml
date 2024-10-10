@@ -1,2 +1,0 @@
-/// @desc upgrade spawner
-
