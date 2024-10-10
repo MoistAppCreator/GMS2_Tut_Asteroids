@@ -42,7 +42,13 @@ if mouse_check_button(mb_left){
 	is_shooting = false;
 }
 
-if is_boosting{
+if mouse_check_button(mb_right){
+	is_mouse_boosting = true;
+}else{
+	is_mouse_boosting = false;
+}
+
+if is_boosting or is_mouse_boosting{
 	motion_add(image_angle, move_speed);
 	if alarm_get(1) <= 0{
 		var _booster_flame = instance_create_layer(x, y, "Instances", obj_booster_particle);

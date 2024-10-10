@@ -1,5 +1,8 @@
 todo
 
+score bubble every score up
+
+score on pause screen
 
 pick ups to change ship and add shield
 
@@ -9,4 +12,4 @@ more enemies and respawn
 
 menus: options
 
-highscore screen
+highscore screen after death
