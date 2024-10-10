@@ -4,7 +4,8 @@ if other.enemy_destroyed{
 
 player_hp -= 1;
 
-other.destroy_enemy(true);
+scr_destroy_enemy(true, other);
+
 
 if (player_hp<=0){
 	instance_create_layer(x, y, "Instances", obj_explode_particle)

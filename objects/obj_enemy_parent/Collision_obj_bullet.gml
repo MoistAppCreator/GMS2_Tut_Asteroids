@@ -1,1 +1,1 @@
-destroy_enemy(false);
+scr_destroy_enemy(false, self);
