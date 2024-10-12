@@ -18,7 +18,7 @@ function scr_destroy_enemy(_player_touched = false, _enemy_instance = noone){
 
 
 	_enemy_instance.direction = random(360);
-	_enemy_instance.image_angle = _enemy_instance.image_angle;
+	_enemy_instance.image_angle = _enemy_instance.direction;
 	_enemy_instance.sprite_index = _enemy_instance.destroyed_sprite;
 	obj_game.points += 50;
 }
