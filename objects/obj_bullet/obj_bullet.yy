@@ -9,8 +9,8 @@
   "name":"obj_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameObjects",
-    "path":"folders/Objects/GameObjects.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/GameObjects/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,4 +1,4 @@
-game_wave_clear		= 0;
+game_wave_clear		= 99;
 
 points				= 0;
 is_gameover			= false;
@@ -12,4 +12,5 @@ enemies_layer		= layer_get_id("Enemies");
 enemy_array			= [
 					obj_enemy_0,
 					obj_enemy_1,
+					obj_enemy_2,
 ];

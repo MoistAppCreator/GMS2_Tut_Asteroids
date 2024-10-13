@@ -9,8 +9,8 @@
   "name":"obj_explode_particle",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameObjects",
-    "path":"folders/Objects/GameObjects.yy",
+    "name":"Particles",
+    "path":"folders/Objects/GameObjects/Particles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

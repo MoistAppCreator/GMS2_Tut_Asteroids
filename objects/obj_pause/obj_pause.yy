@@ -11,8 +11,8 @@
   "name":"obj_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameObjects",
-    "path":"folders/Objects/GameObjects.yy",
+    "name":"MenuObjects",
+    "path":"folders/Objects/MenuObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

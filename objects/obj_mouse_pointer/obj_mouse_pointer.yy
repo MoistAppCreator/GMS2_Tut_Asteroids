@@ -8,8 +8,8 @@
   "name":"obj_mouse_pointer",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameObjects",
-    "path":"folders/Objects/GameObjects.yy",
+    "name":"MenuObjects",
+    "path":"folders/Objects/MenuObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

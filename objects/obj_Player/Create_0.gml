@@ -15,5 +15,6 @@ sprite_index		= main_sprite
 image_xscale		= 0.5;
 image_yscale		= 0.5;
 
+player_shield_obj	= noone;
 player_hp			= 1;
 
