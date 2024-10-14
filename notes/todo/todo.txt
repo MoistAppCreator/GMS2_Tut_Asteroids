@@ -1,14 +1,16 @@
 todo
 
+particles for upgrade spawn in
+pick ups to change ship
+
 score bubble every score up
 
 score on pause screen
 
-pick ups to change ship and add shield
-
 sounds
 
-more enemies and respawn
+more enemies
+	add 3,4,5,6
 
 menus: options
 
