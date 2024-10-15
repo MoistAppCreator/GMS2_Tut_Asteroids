@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_2",
+  "%Name":"obj_enemy_5",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy_2",
+  "name":"obj_enemy_5",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyTurret_Destroyed","path":"sprites/sprEnemyTurret_Destroyed/sprEnemyTurret_Destroyed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyShip1_Upgraded","path":"sprites/sprEnemyShip1_Upgraded/sprEnemyShip1_Upgraded.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Upgraded",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"follow_player","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_speed","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_shield","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_speed","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_shield","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"shoot_player","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Enemies",
@@ -37,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEnemyShip1_Upgraded",
-    "path":"sprites/sprEnemyShip1_Upgraded/sprEnemyShip1_Upgraded.yy",
+    "name":"sprEnemyShip3_Base",
+    "path":"sprites/sprEnemyShip3_Base/sprEnemyShip3_Base.yy",
   },
   "spriteMaskId":null,
   "visible":true,

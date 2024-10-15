@@ -6,7 +6,6 @@ function scr_game_stages(_game_stage = 0, _layer_string = "", _obj = undefined){
 		
 	//return enemy obj, number of enemy,spawn shield bool?, spawn ship bool?
 
-	print(_game_stage)
 	for (var i = 0; i < _game_stage * 2; i += 1)
 	{
 		_x = choose(-100, 1100) * 1;

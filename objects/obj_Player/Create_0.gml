@@ -6,7 +6,7 @@ is_shooting			= false;
 turn_speed_normal	= turn_speed_base;
 turn_speed_shooting = turn_speed_shooting_base;
 turn_tolerance		= 10;
-shoot_speed			= 10;
+shoot_speed			= shoot_speed_base;
 //gun_offset_x		= 50
 //gun_offset_y		= -50
 
@@ -18,3 +18,4 @@ image_yscale		= 0.5;
 player_shield_obj	= noone;
 player_hp			= 1;
 
+instance_create_layer(x, y, "Particles", obj_spawn_in_particle);

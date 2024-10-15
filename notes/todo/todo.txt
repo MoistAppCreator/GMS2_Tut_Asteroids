@@ -1,6 +1,7 @@
 todo
 
-particles for upgrade spawn in
+different enemy bullet
+
 pick ups to change ship
 
 score bubble every score up
@@ -8,9 +9,6 @@ score bubble every score up
 score on pause screen
 
 sounds
-
-more enemies
-	add 3,4,5,6
 
 menus: options
 

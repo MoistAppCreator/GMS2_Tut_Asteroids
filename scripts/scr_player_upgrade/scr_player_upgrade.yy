@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_player_upgrade_enum",
+  "%Name":"scr_player_upgrade",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_player_upgrade_enum",
+  "name":"scr_player_upgrade",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

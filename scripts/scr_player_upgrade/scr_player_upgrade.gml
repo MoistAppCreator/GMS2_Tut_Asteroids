@@ -5,6 +5,6 @@ enum PlayerShipVersion{
 }
 
 
-function scr_player_upgrade_enum(){
-
+function scr_player_upgrade(_posx,_posy){
+	
 }
