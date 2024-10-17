@@ -5,9 +5,9 @@
   "managed":true,
   "name":"obj_player_medium",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_player_ship_light","path":"sprites/spr_player_ship_light/spr_player_ship_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player_ship_light",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"turn_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_player_ship_light_tilt","path":"sprites/spr_player_ship_light_tilt/spr_player_ship_light_tilt.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player_ship_light_tilt",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"shoot_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_player_ship_light_fire","path":"sprites/spr_player_ship_light_fire/spr_player_ship_light_fire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player_ship_light_fire",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_Player_Ship_Medium","path":"sprites/spr_Player_Ship_Medium/spr_Player_Ship_Medium.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_Player_Ship_Medium",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"turn_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_Player_Ship_Medium_Tilt","path":"sprites/spr_Player_Ship_Medium_Tilt/spr_Player_Ship_Medium_Tilt.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_Player_Ship_Medium_Tilt",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"shoot_sprite","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"spr_Player_Ship_Medium_Fire","path":"sprites/spr_Player_Ship_Medium_Fire/spr_Player_Ship_Medium_Fire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_Player_Ship_Medium_Fire",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"ident_enum","path":"objects/obj_player/obj_player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_ship_light",
-    "path":"sprites/spr_player_ship_light/spr_player_ship_light.yy",
+    "name":"spr_Player_Ship_Medium",
+    "path":"sprites/spr_Player_Ship_Medium/spr_Player_Ship_Medium.yy",
   },
   "spriteMaskId":null,
   "visible":true,

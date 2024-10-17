@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_enemy_1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyTurret_Destroyed","path":"sprites/sprEnemyTurret_Destroyed/sprEnemyTurret_Destroyed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyShip1_Base","path":"sprites/sprEnemyShip1_Base/sprEnemyShip1_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Base",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Base",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"follow_player","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEnemyShip1_Base",
-    "path":"sprites/sprEnemyShip1_Base/sprEnemyShip1_Base.yy",
+    "name":"spr_Enemy_Ship1_Base",
+    "path":"sprites/spr_Enemy_Ship1_Base/spr_Enemy_Ship1_Base.yy",
   },
   "spriteMaskId":null,
   "visible":true,

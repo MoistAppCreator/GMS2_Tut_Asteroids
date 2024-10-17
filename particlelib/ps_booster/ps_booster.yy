@@ -63,8 +63,8 @@
   "speedWiggle":0.0,
   "spriteAnimate":true,
   "spriteId":{
-    "name":"sprPlayerShip_Thruster",
-    "path":"sprites/sprPlayerShip_Thruster/sprPlayerShip_Thruster.yy",
+    "name":"spr_Player_Ship_Thruster",
+    "path":"sprites/spr_Player_Ship_Thruster/spr_Player_Ship_Thruster.yy",
   },
   "spriteRandom":false,
   "spriteStretch":true,

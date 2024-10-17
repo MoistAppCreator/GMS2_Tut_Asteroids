@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_enemy_6",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyTurret_Destroyed","path":"sprites/sprEnemyTurret_Destroyed/sprEnemyTurret_Destroyed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"sprEnemyShip1_Upgraded","path":"sprites/sprEnemyShip1_Upgraded/sprEnemyShip1_Upgraded.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Upgraded",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Upgraded",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"follow_player","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_speed","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"enemy_shield","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprEnemyShip3_Upgraded",
-    "path":"sprites/sprEnemyShip3_Upgraded/sprEnemyShip3_Upgraded.yy",
+    "name":"spr_Enemy_Ship3_Upgraded",
+    "path":"sprites/spr_Enemy_Ship3_Upgraded/spr_Enemy_Ship3_Upgraded.yy",
   },
   "spriteMaskId":null,
   "visible":true,

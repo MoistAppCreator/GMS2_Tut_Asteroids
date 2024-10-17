@@ -1,10 +1,10 @@
 todo
 
-different enemy bullet
 
 pick ups to change ship
 
 score bubble every score up
+upgrade bubble on every ship cycle
 
 score on pause screen
 
@@ -13,3 +13,5 @@ sounds
 menus: options
 
 highscore screen after death
+
+debug bullet spawn loc on player

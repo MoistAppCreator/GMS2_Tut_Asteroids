@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPickUp_Shield",
-    "path":"sprites/sprPickUp_Shield/sprPickUp_Shield.yy",
+    "name":"spr_PickUp_Shield",
+    "path":"sprites/spr_PickUp_Shield/spr_PickUp_Shield.yy",
   },
   "spriteMaskId":null,
   "visible":true,

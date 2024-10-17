@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPickUp_PowerUp",
-    "path":"sprites/sprPickUp_PowerUp/sprPickUp_PowerUp.yy",
+    "name":"spr_PickUp_PowerUp",
+    "path":"sprites/spr_PickUp_PowerUp/spr_PickUp_PowerUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,4 @@
-game_wave_clear		= 10000;
+game_wave_clear		= 0;
 player_level		= 0;
 
 points				= 0;

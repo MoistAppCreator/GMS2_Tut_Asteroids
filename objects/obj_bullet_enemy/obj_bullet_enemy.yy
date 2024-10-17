@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayerBulletAnim",
-    "path":"sprites/sprPlayerBulletAnim/sprPlayerBulletAnim.yy",
+    "name":"spr_Enemy_Missile_Anim",
+    "path":"sprites/spr_Enemy_Missile_Anim/spr_Enemy_Missile_Anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,

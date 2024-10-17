@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayerBulletAnim",
-    "path":"sprites/sprPlayerBulletAnim/sprPlayerBulletAnim.yy",
+    "name":"spr_Player_Bullet_Anim",
+    "path":"sprites/spr_Player_Bullet_Anim/spr_Player_Bullet_Anim.yy",
   },
   "spriteMaskId":null,
   "visible":true,
