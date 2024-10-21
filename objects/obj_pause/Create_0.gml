@@ -16,7 +16,8 @@ function pause_toggle(){
 			if(current_button_array[_i] == noone){
 				continue;
 			}
-			instance_destroy(current_button_array[_i])
+			instance_destroy(current_button_array[_i]);
+			instance_destroy(boarder_obj);
 		}
 	}else{
 		is_paused = true;
@@ -27,9 +28,10 @@ function pause_toggle(){
 		for(var _i = 0; _i < array_length(button_array); _i += 1){
 			_temp_instance = instance_create_layer(first_button_location_x, first_button_location_y + (_i * 150), submenu_layer, button_array[_i]);
 			current_button_array[_i]  = _temp_instance;
-			_temp_instance.image_xscale = 5;
-			_temp_instance.image_yscale = 5;
+			_temp_instance.image_xscale = 1;
+			_temp_instance.image_yscale = 1;
 
 		}
+		instance_create_layer(0, 0, submenu_layer, boarder_obj);
 	}
 }

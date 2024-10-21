@@ -8,7 +8,7 @@
   "name":"obj_button_quit",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_down_sprite","path":"objects/obj_button_parent/obj_button_parent.yy",},"resource":{"name":"spr_bar_round_large","path":"sprites/spr_bar_round_large/spr_bar_round_large.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bar_round_large",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_down_sprite","path":"objects/obj_button_parent/obj_button_parent.yy",},"resource":{"name":"buttonpressed","path":"sprites/buttonpressed/buttonpressed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"buttonpressed",},
   ],
   "parent":{
     "name":"MenuObjects",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bar_round_gloss_large",
-    "path":"sprites/spr_bar_round_gloss_large/spr_bar_round_gloss_large.yy",
+    "name":"button",
+    "path":"sprites/button/button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
