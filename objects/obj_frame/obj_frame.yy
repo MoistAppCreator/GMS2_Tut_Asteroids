@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"boarder",
-    "path":"sprites/boarder/boarder.yy",
+    "name":"Sprite88",
+    "path":"sprites/Sprite88/Sprite88.yy",
   },
   "spriteMaskId":null,
   "visible":true,

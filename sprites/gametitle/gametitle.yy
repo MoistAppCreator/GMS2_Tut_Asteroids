@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"gametitle",
   "bboxMode":0,
-  "bbox_bottom":1023,
+  "bbox_bottom":1020,
   "bbox_left":0,
   "bbox_right":1023,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd0a2731-d27c-4b3a-b39a-0ddf4e7215d0","name":"cd0a2731-d27c-4b3a-b39a-0ddf4e7215d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7b966395-487c-46d8-9d27-178fc7b46d48","name":"7b966395-487c-46d8-9d27-178fc7b46d48","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1024,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"782d274f-4b9e-4ea6-a466-de7b1739f29c","blendMode":0,"displayName":"default","isLocked":false,"name":"782d274f-4b9e-4ea6-a466-de7b1739f29c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"575fc698-cb74-4768-b585-1d40a26a4a0f","blendMode":0,"displayName":"default","isLocked":false,"name":"575fc698-cb74-4768-b585-1d40a26a4a0f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"gametitle",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd0a2731-d27c-4b3a-b39a-0ddf4e7215d0","path":"sprites/gametitle/gametitle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ee93008a-c0f3-43f9-81be-2d78d326ef66","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b966395-487c-46d8-9d27-178fc7b46d48","path":"sprites/gametitle/gametitle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1417a710-e0d9-4fed-92ed-d1ecb48843d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -189,7 +189,7 @@
     {"name":"sprEnemyMissileEmit","order":3,"path":"sprites/sprEnemyMissileEmit/sprEnemyMissileEmit.yy",},
     {"name":"sprEnemyPlasmaAnim","order":4,"path":"sprites/sprEnemyPlasmaAnim/sprEnemyPlasmaAnim.yy",},
     {"name":"sprEnemyPlasmaEmit","order":5,"path":"sprites/sprEnemyPlasmaEmit/sprEnemyPlasmaEmit.yy",},
-    {"name":"Sprite92","order":15,"path":"sprites/Sprite92/Sprite92.yy",},
+    {"name":"Sprite88","order":15,"path":"sprites/Sprite88/Sprite88.yy",},
     {"name":"sprPlayerBulletEmit","order":2,"path":"sprites/sprPlayerBulletEmit/sprPlayerBulletEmit.yy",},
     {"name":"sprPlayerHeavyMissile","order":3,"path":"sprites/sprPlayerHeavyMissile/sprPlayerHeavyMissile.yy",},
     {"name":"sprPlayerHeavyMissileAnim","order":4,"path":"sprites/sprPlayerHeavyMissileAnim/sprPlayerHeavyMissileAnim.yy",},
