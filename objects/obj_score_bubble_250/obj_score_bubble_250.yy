@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_frame",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_score_bubble_250",
+  "eventList":[],
   "managed":true,
-  "name":"obj_frame",
+  "name":"obj_score_bubble_250",
   "overriddenProperties":[],
   "parent":{
-    "name":"MenuObjects",
-    "path":"folders/Objects/MenuObjects.yy",
+    "name":"Score",
+    "path":"folders/Objects/GameObjects/Score.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_score_bubble_parent",
+    "path":"objects/obj_score_bubble_parent/obj_score_bubble_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"scoretext250",
+    "path":"sprites/scoretext250/scoretext250.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

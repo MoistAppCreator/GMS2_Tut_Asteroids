@@ -1,5 +1,6 @@
 todo
 
+fix: levels getting stuck when a an enemy lives on the edge
 
 pick ups to change ship
 
