@@ -20,19 +20,28 @@ if is_shooting{
 }
 
 
-
 move_wrap(true,true,100);
 
 if mouse_check_button(mb_left){
 	is_shooting = true;
 	if alarm_get(0) <= 0{
-		var _bullet_spawn_x = x + gun_offset_x*dcos(image_angle) + gun_offset_x*dsin(image_angle);
+		
+		var _gunoffset = gun_offset_fromcenter * 1;
+		
+		var direction_gunpoint = image_angle + point_direction(0, 0, gun_offset_x, gun_offset_y);
+		
+		var _bullet_spawn_x = x + lengthdir_x(_gunoffset, direction_gunpoint);
+			
+		var _bullet_spawn_y = y + lengthdir_y(_gunoffset, direction_gunpoint);
+
+		var _bullet = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Player", bullet_asset);
+		
+		var _gunpoint = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Particles", gunpoint_asset);
+		_gunpoint.image_angle = image_angle;
+		
 		
 		gun_offset_y = -gun_offset_y;
-			
-		var _bullet_spawn_y = y + gun_offset_y*dcos(image_angle) - gun_offset_y*dsin(image_angle);
-
-		var _bullet = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Player", obj_bullet);
+		
 		_bullet.direction = image_angle;
 		_bullet.image_angle = image_angle;
 

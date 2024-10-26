@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_score_bubble_parent",
+  "%Name":"obj_gunpoint_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_score_bubble_parent",
+  "name":"obj_gunpoint_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Score",
-    "path":"folders/Objects/GameObjects/Score.yy",
+    "name":"GunPoints",
+    "path":"folders/Objects/GameObjects/Player/Weapons/GunPoints.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,13 +27,15 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"image_size","filters":[],"listItems":[],"multiselect":false,"name":"image_size","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"move_speed","filters":[],"listItems":[],"multiselect":false,"name":"move_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"animation_timeout","filters":[],"listItems":[],"multiselect":false,"name":"animation_timeout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprPlayerBulletEmit",
+    "path":"sprites/sprPlayerBulletEmit/sprPlayerBulletEmit.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

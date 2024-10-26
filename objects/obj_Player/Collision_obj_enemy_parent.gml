@@ -5,6 +5,7 @@ if other.enemy_destroyed{
 player_hp -= 1;
 
 instance_destroy(player_shield_obj);
+player_shield_obj = noone;
 scr_destroy_enemy(true, other);
 
 

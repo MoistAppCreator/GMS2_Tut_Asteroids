@@ -1,11 +1,8 @@
 todo
 
-fix: levels getting stuck when a an enemy lives on the edge
+
 
 pick ups to change ship
-
-score bubble every score up
-upgrade bubble on every ship cycle
 
 score on pause screen
 
@@ -14,5 +11,3 @@ sounds
 menus: options
 
 highscore screen after death
-
-debug bullet spawn loc on player

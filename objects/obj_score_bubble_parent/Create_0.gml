@@ -1,4 +1,4 @@
 alarm[0] = 240;
 
-image_xscale = .5;
-image_yscale = .5;
+image_xscale = image_size;
+image_yscale = image_size;

@@ -8,8 +8,8 @@ function scr_game_stages(_game_stage = 0, _layer_string = "", _obj = undefined){
 
 	for (var i = 0; i < _game_stage * 2; i += 1)
 	{
-		_x = choose(-100, 1100) * 1;
-		_y = random_range(-100, 1100) * 1;
+		var _x = choose(-100, 1100) * 1;
+		var _y = random_range(-100, 1100) * 1;
 		
 		instance_create_layer(_x, _y, _layer_string, _obj);
 	}

@@ -1,12 +1,12 @@
-move_speed			= move_speed_base;
+move_speed			= move_speed_base + (obj_game.player_level * move_speed_base * 0.1);
 is_boosting			= false;
 is_mouse_boosting	= false;
 boost_timer			= 2;
 is_shooting			= false;
-turn_speed_normal	= turn_speed_base;
-turn_speed_shooting = turn_speed_shooting_base;
-turn_tolerance		= 10;
-shoot_speed			= shoot_speed_base;
+turn_speed_normal	= turn_speed_base + (obj_game.player_level * turn_speed_base * 0.1);
+turn_speed_shooting = turn_speed_shooting_base + (obj_game.player_level * turn_speed_shooting_base * 0.1);
+turn_tolerance		= 20;
+shoot_speed			= shoot_speed_base - (obj_game.player_level * shoot_speed_base * 0.1);
 //gun_offset_x		= 50
 //gun_offset_y		= -50
 

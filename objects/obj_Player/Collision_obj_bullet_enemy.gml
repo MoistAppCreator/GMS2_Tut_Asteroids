@@ -2,7 +2,7 @@
 player_hp -= 1;
 
 instance_destroy(player_shield_obj);
-
+player_shield_obj = noone;
 
 if (player_hp<=0){
 	instance_create_layer(x, y, "Player", obj_explode_particle)

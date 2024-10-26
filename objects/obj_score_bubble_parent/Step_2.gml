@@ -1,2 +1,2 @@
-y -= 1;
+y -= move_speed;
 image_alpha = clamp(image_alpha - 0.01, 0, 1);
