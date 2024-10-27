@@ -36,8 +36,10 @@ if mouse_check_button(mb_left){
 
 		var _bullet = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Player", bullet_asset);
 		
-		var _gunpoint = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Particles", gunpoint_asset);
-		_gunpoint.image_angle = image_angle;
+		if(use_gunpoint_asset){
+			var _gunpoint = instance_create_layer(_bullet_spawn_x, _bullet_spawn_y, "Particles", gunpoint_asset);
+			_gunpoint.image_angle = image_angle;
+		}
 		
 		
 		gun_offset_y = -gun_offset_y;

@@ -51,6 +51,7 @@
     {"$GMObjectProperty":"v1","%Name":"ident_enum","filters":[],"listItems":[],"multiselect":false,"name":"ident_enum","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"bullet_asset","filters":[],"listItems":[],"multiselect":false,"name":"bullet_asset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_bullet_parent","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"gunpoint_asset","filters":[],"listItems":[],"multiselect":false,"name":"gunpoint_asset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_gunpoint_parent","path":"objects/obj_gunpoint_parent/obj_gunpoint_parent.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_gunpoint_parent","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"use_gunpoint_asset","filters":[],"listItems":[],"multiselect":false,"name":"use_gunpoint_asset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,4 +1,7 @@
-scr_destroy_enemy(false, self);
-
 if(enemy_destroyed) return;
-instance_destroy(other);
+
+if(!other.pass_thru_enemy){
+	instance_destroy(other);
+}
+
+scr_destroy_enemy(false, self);
