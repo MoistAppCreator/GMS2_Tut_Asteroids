@@ -27,5 +27,7 @@ function scr_destroy_enemy(_player_touched = false, _enemy_instance = noone){
 	_enemy_instance.sprite_index = _enemy_instance.destroyed_sprite;
 	
 	instance_create_layer(_enemy_instance.x, _enemy_instance.y, "Particles", obj_score_bubble_100);
+	
+	_enemy_instance.layer = layer_get_id("Dead_Enemies");
 	obj_game.points += 100;
 }

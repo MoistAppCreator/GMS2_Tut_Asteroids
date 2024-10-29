@@ -12,6 +12,7 @@ function pause_toggle(){
 		instance_activate_layer("Particles");
 		instance_activate_layer("Player");
 		instance_activate_layer("Enemies");
+		instance_activate_layer("Dead_Enemies");
 		for(var _i = 0; _i< array_length(current_button_array); _i += 1){
 			if(current_button_array[_i] == noone){
 				continue;
@@ -25,6 +26,7 @@ function pause_toggle(){
 		instance_deactivate_layer("Particles");
 		instance_deactivate_layer("Player");
 		instance_deactivate_layer("Enemies");
+		instance_deactivate_layer("Dead_Enemies");
 		for(var _i = 0; _i < array_length(button_array); _i += 1){
 			_temp_instance = instance_create_layer(first_button_location_x, first_button_location_y + (_i * 150), submenu_layer, button_array[_i]);
 			current_button_array[_i]  = _temp_instance;

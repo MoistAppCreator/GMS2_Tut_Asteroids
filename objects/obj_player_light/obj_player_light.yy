@@ -11,6 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"ident_enum","path":"objects/obj_player/obj_player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"bullet_asset","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"obj_bullet_light","path":"objects/obj_bullet_light/obj_bullet_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_bullet_light",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"gunpoint_asset","path":"objects/obj_player/obj_player.yy",},"resource":{"name":"obj_gunpoint_light","path":"objects/obj_gunpoint_light/obj_gunpoint_light.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_gunpoint_light",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"shoot_speed_base","path":"objects/obj_player/obj_player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
   ],
   "parent":{
     "name":"Player",

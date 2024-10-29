@@ -48,8 +48,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "tags":[
-    "enemy",
-  ],
   "visible":true,
 }
