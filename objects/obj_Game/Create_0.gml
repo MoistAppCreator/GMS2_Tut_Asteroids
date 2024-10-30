@@ -6,6 +6,7 @@ is_gameover			= false;
 
 
 
+
 var _spawned_player	= instance_create_layer(500, 500, "Player", heavy_ship_obj);
 
 alarm[1] = wave_timeout;

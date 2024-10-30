@@ -1,9 +1,6 @@
 todo:
 
 
-
-pick ups to change ship fix tags for finding live enemy
-
 score on pause screen
 
 sounds

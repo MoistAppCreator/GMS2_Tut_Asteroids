@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_EnemyExplo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.581333,
+  "name":"snd_EnemyExplo",
+  "parent":{
+    "name":"Enemy Ship",
+    "path":"folders/Sounds/SFX/Enemy Ship.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_EnemyExplo.wav",
+  "type":0,
+  "volume":1.0,
+}
