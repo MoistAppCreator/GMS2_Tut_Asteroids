@@ -3,8 +3,7 @@ todo:
 
 score on pause screen
 
-sounds
-
-menus: options
+options: volume control
+controls button
 
 highscore screen after death

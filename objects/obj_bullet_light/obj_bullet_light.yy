@@ -4,7 +4,11 @@
   "eventList":[],
   "managed":true,
   "name":"obj_bullet_light",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound3","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_bullet3","path":"sounds/snd_bullet3/snd_bullet3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_bullet3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound2","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_bullet2","path":"sounds/snd_bullet2/snd_bullet2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_bullet2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound1","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_bullet1","path":"sounds/snd_bullet1/snd_bullet1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_bullet1",},
+  ],
   "parent":{
     "name":"Bullets",
     "path":"folders/Objects/GameObjects/Player/Weapons/Bullets.yy",

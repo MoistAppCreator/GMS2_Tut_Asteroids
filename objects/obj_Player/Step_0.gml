@@ -48,6 +48,7 @@ if mouse_check_button(mb_left){
 		_bullet.image_angle = image_angle;
 
 		alarm[0] = shoot_speed;
+		
 	}
 }else{
 	is_shooting = false;
@@ -60,6 +61,7 @@ if mouse_check_button(mb_right){
 }
 
 if is_boosting or is_mouse_boosting{
+	audio_play_sound(snd_PlayerEngine, 10, true);
 	motion_add(image_angle, move_speed);
 	if alarm_get(1) <= 0{
 		var _booster_flame = instance_create_layer(x, y, "Player", obj_booster_particle);
@@ -67,4 +69,6 @@ if is_boosting or is_mouse_boosting{
 		_booster_flame.image_angle = image_angle + 180;
 		alarm[1] = boost_timer;
 	}
+}else{
+	audio_stop_sound(snd_PlayerEngine);
 }

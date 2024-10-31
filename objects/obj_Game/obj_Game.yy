@@ -36,6 +36,7 @@
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"shield_upgrade_obj","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"wave_timeout","filters":[],"listItems":[],"multiselect":false,"name":"wave_timeout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2400","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"game_restart_timeout","filters":[],"listItems":[],"multiselect":false,"name":"game_restart_timeout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"360","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

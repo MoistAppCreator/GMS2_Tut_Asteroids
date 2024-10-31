@@ -7,6 +7,8 @@ enum PlayerShipVersion{
 
 function scr_player_upgrade(_posx,_posy){
 	
+	audio_play_sound(snd_Upgrade, 1, false);
+	
 	var _old_player_hspeed = obj_player.hspeed;
 	var _old_player_vspeed = obj_player.vspeed;
 	var _old_player_enum = obj_player.ident_enum;

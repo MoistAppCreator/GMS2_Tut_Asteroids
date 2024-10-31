@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sound",
+  "%Name":"obj_music",
   "eventList":[],
   "managed":true,
-  "name":"obj_sound",
+  "name":"obj_music",
   "overriddenProperties":[],
   "parent":{
     "name":"GameObjects",

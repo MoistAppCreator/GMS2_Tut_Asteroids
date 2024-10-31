@@ -7,6 +7,9 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"projectile_speed","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"13",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"track_nearest_enemy","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound1","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_rocket1","path":"sounds/snd_rocket1/snd_rocket1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_rocket1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound2","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_rocket2","path":"sounds/snd_rocket2/snd_rocket2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_rocket2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"sound3","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resource":{"name":"snd_rocket3","path":"sounds/snd_rocket3/snd_rocket3.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_rocket3",},
   ],
   "parent":{
     "name":"Bullets",
