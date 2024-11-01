@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_frame",
+  "%Name":"obj_mainmenu_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_frame",
+  "name":"obj_mainmenu_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"MenuObjects",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"boarder",
-    "path":"sprites/boarder/boarder.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

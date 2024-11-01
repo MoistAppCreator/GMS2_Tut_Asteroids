@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_frame",
+  "%Name":"obj_simpletitle_parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_frame",
+  "name":"obj_simpletitle_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"MenuObjects",
@@ -25,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"title_text","filters":[],"listItems":[],"multiselect":false,"name":"title_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Test","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"boarder",
-    "path":"sprites/boarder/boarder.yy",
+    "name":"titlecard",
+    "path":"sprites/titlecard/titlecard.yy",
   },
   "spriteMaskId":null,
   "visible":true,
