@@ -4,10 +4,8 @@ player_level		= 0;
 points				= 0;
 is_gameover			= false;
 
-track = sndTrack1;
-track = choose(sndTrack1, sndTrack2);
-audio_play_sound(track, 10, true);
 
+obj_global_controller.play_music();
 
 var _spawned_player	= instance_create_layer(500, 500, "Player", light_ship_obj);
 
