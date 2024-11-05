@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_bullet2",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Fx",
+    "path":"audiogroups/Fx",
   },
   "bitDepth":1,
   "bitRate":128,

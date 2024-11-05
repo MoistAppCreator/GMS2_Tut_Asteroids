@@ -18,7 +18,7 @@ function pause_toggle(){
 				continue;
 			}
 			instance_destroy(current_button_array[_i]);
-			instance_destroy(boarder_obj);
+			//instance_destroy(boarder_obj);
 		}
 	}else{
 		is_paused = true;
@@ -34,6 +34,6 @@ function pause_toggle(){
 			_temp_instance.image_yscale = 1;
 
 		}
-		instance_create_layer(0, 0, submenu_layer, boarder_obj);
+		//instance_create_layer(50, 50, submenu_layer, boarder_obj);
 	}
 }

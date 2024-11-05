@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"snd_rocket2",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Fx",
+    "path":"audiogroups/Fx",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.959687,
+  "duration":1.136458,
   "name":"snd_rocket2",
   "parent":{
     "name":"Player Ship",

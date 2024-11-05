@@ -42,7 +42,7 @@
     ],
     "top":51,
   },
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"Menu Sprites",
     "path":"folders/Sprites/Menu Sprites.yy",
@@ -95,7 +95,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":182,
-    "yorigin":0,
+    "yorigin":100,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -23,7 +23,7 @@
   ],
   "name":"music",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Menu Sprites",
     "path":"folders/Sprites/Menu Sprites.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":25,
+    "xorigin":37,
     "yorigin":25,
   },
   "swatchColours":null,
