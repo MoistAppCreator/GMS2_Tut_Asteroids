@@ -64,6 +64,7 @@
   },
   "name":"Asteroids",
   "resources":[
+    {"id":{"name":"fnt_controls","path":"fonts/fnt_controls/fnt_controls.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"todo","path":"notes/todo/todo.yy",},},
     {"id":{"name":"obj_booster_particle","path":"objects/obj_booster_particle/obj_booster_particle.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
     {"id":{"name":"obj_button_unpause","path":"objects/obj_button_unpause/obj_button_unpause.yy",},},
+    {"id":{"name":"obj_controls_label","path":"objects/obj_controls_label/obj_controls_label.yy",},},
     {"id":{"name":"obj_enemy_0","path":"objects/obj_enemy_0/obj_enemy_0.yy",},},
     {"id":{"name":"obj_enemy_1","path":"objects/obj_enemy_1/obj_enemy_1.yy",},},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},},

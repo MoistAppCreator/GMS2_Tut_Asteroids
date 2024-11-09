@@ -16,6 +16,7 @@
     {"name":"Score","order":2,"path":"folders/Sprites/Score.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_controls","order":1,"path":"fonts/fnt_controls/fnt_controls.yy",},
     {"name":"todo","order":14,"path":"notes/todo/todo.yy",},
     {"name":"obj_bullet_enemy","order":9,"path":"objects/obj_bullet_enemy/obj_bullet_enemy.yy",},
     {"name":"obj_bullet_heavy","order":3,"path":"objects/obj_bullet_heavy/obj_bullet_heavy.yy",},
@@ -32,6 +33,7 @@
     {"name":"obj_button_play","order":1,"path":"objects/obj_button_play/obj_button_play.yy",},
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_button_unpause","order":6,"path":"objects/obj_button_unpause/obj_button_unpause.yy",},
+    {"name":"obj_controls_label","order":10,"path":"objects/obj_controls_label/obj_controls_label.yy",},
     {"name":"obj_enemy_0","order":2,"path":"objects/obj_enemy_0/obj_enemy_0.yy",},
     {"name":"obj_enemy_1","order":3,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
     {"name":"obj_enemy_2","order":4,"path":"objects/obj_enemy_2/obj_enemy_2.yy",},
