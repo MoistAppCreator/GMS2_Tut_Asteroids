@@ -9,6 +9,7 @@
     {"name":"GunPoints","order":3,"path":"folders/Objects/GameObjects/Player/Weapons/GunPoints.yy",},
     {"name":"Powerups","order":15,"path":"folders/Objects/GameObjects/Powerups.yy",},
     {"name":"Score","order":16,"path":"folders/Objects/GameObjects/Score.yy",},
+    {"name":"Highscore","order":18,"path":"folders/Objects/MenuObjects/Highscore.yy",},
     {"name":"Volume","order":17,"path":"folders/Objects/MenuObjects/Volume.yy",},
     {"name":"Menu","order":1,"path":"folders/Sounds/SFX/Menu.yy",},
     {"name":"Weapon","order":1,"path":"folders/Sprites/Enemy/Weapon.yy",},
