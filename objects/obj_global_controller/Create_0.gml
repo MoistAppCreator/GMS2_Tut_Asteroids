@@ -10,6 +10,9 @@ audio_group_set_gain(Music, global.musicvolume, 1);
 
 selected_track = sndTrack1;
 
+
+highscore_tobeat = 200;
+
 function play_sound(_sound){
 	
 	

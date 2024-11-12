@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Ext","order":15,"path":"folders/Ext.yy",},
     {"name":"GameObjects","order":1,"path":"folders/Objects/GameObjects.yy",},
     {"name":"Enemies","order":10,"path":"folders/Objects/GameObjects/Enemies.yy",},
     {"name":"Particles","order":14,"path":"folders/Objects/GameObjects/Particles.yy",},
@@ -35,6 +36,7 @@
     {"name":"obj_button_quit","order":3,"path":"objects/obj_button_quit/obj_button_quit.yy",},
     {"name":"obj_button_unpause","order":6,"path":"objects/obj_button_unpause/obj_button_unpause.yy",},
     {"name":"obj_controls_label","order":10,"path":"objects/obj_controls_label/obj_controls_label.yy",},
+    {"name":"obj_currentscore","order":1,"path":"objects/obj_currentscore/obj_currentscore.yy",},
     {"name":"obj_enemy_0","order":2,"path":"objects/obj_enemy_0/obj_enemy_0.yy",},
     {"name":"obj_enemy_1","order":3,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
     {"name":"obj_enemy_2","order":4,"path":"objects/obj_enemy_2/obj_enemy_2.yy",},
@@ -70,6 +72,7 @@
     {"name":"obj_spawn_in_particle","order":2,"path":"objects/obj_spawn_in_particle/obj_spawn_in_particle.yy",},
     {"name":"obj_title_controls","order":15,"path":"objects/obj_title_controls/obj_title_controls.yy",},
     {"name":"obj_title_highscore","order":16,"path":"objects/obj_title_highscore/obj_title_highscore.yy",},
+    {"name":"obj_title_ingamescore","order":19,"path":"objects/obj_title_ingamescore/obj_title_ingamescore.yy",},
     {"name":"obj_title","order":11,"path":"objects/obj_title/obj_title.yy",},
     {"name":"ps_booster","order":1,"path":"particles/ps_booster/ps_booster.yy",},
     {"name":"ps_explode_1","order":2,"path":"particles/ps_explode_1/ps_explode_1.yy",},

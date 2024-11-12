@@ -1,17 +1,19 @@
 is_paused					= false;
 sprite_index				= noone;
 button_array				= [obj_button_unpause, obj_button_mainmenu];
-first_button_location_x		= 800;
-first_button_location_y		= 400;
+first_button_location_x		= 500;
+first_button_location_y		= 300;
 current_button_array		= [noone, noone];
 
 instance_deactivate_layer(highscoremenu_layer);
+instance_deactivate_layer(submenu_layer);
 
 function pause_toggle(){
 	if(is_paused == true){
 		is_paused = false;
 		sprite_index = noone;
-		instance_deactivate_layer(highscoremenu_layer);
+		//instance_deactivate_layer(highscoremenu_layer);
+		instance_deactivate_layer(submenu_layer);
 		instance_activate_layer("Particles");
 		instance_activate_layer("Player");
 		instance_activate_layer("Enemies");
@@ -26,7 +28,8 @@ function pause_toggle(){
 	}else{
 		is_paused = true;
 		sprite_index = background_sprite;
-		instance_activate_layer(highscoremenu_layer);
+		//instance_activate_layer(highscoremenu_layer);
+		instance_activate_layer(submenu_layer);
 		instance_deactivate_layer("Particles");
 		instance_deactivate_layer("Player");
 		instance_deactivate_layer("Enemies");

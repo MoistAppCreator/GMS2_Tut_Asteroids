@@ -1,5 +1,3 @@
 todo:
 
-score on pause screen
-
 highscore screen after death
