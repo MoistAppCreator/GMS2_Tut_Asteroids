@@ -12,7 +12,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Ext","folderPath":"folders/Ext.yy","name":"Ext","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Firebase Firestore","folderPath":"folders/Firebase Firestore.yy","name":"Firebase Firestore","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Firebase Firestore/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Firebase REST API Library (Don't Touch)","folderPath":"folders/Firebase Firestore/Extensions/Firebase REST API Library (Don't Touch).yy","name":"Firebase REST API Library (Don't Touch)","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -155,6 +154,7 @@
     {"id":{"name":"obj_gunpoint_light","path":"objects/obj_gunpoint_light/obj_gunpoint_light.yy",},},
     {"id":{"name":"obj_gunpoint_med","path":"objects/obj_gunpoint_med/obj_gunpoint_med.yy",},},
     {"id":{"name":"obj_gunpoint_parent","path":"objects/obj_gunpoint_parent/obj_gunpoint_parent.yy",},},
+    {"id":{"name":"obj_highscore_draw","path":"objects/obj_highscore_draw/obj_highscore_draw.yy",},},
     {"id":{"name":"obj_letterplace_parent","path":"objects/obj_letterplace_parent/obj_letterplace_parent.yy",},},
     {"id":{"name":"obj_mainmenu_controller","path":"objects/obj_mainmenu_controller/obj_mainmenu_controller.yy",},},
     {"id":{"name":"obj_menu_mouse_pointer","path":"objects/obj_menu_mouse_pointer/obj_menu_mouse_pointer.yy",},},

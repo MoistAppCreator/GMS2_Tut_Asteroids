@@ -13,6 +13,7 @@ selected_track = sndTrack1;
 root = "highscores";
 listener = FirebaseFirestore(root).Listener();
 data = -1;
+highscore_tobeat = 200;
 
 sort_score = function(_a, _b){
 	return _b.score - _a.score
@@ -30,12 +31,6 @@ function push_score(){
 }
 
 
-//var json = json_stringify({ name: "Hero", level: 100 });
-//listenerId = FirebaseFirestore("highscores/Eyz9mfLKZz9MFpfBtfIY").Set(json);
-
-//listenerId = FirebaseFirestore("highscores/Eyz9mfLKZz9MFpfBtfIY").OrderBy("Points", "ASCENDING").Limit(10).WhereLessThan("Points", 50).Query();
-
-highscore_tobeat = 200;
 
 function play_sound(_sound){
 	

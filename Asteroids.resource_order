@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"Ext","order":15,"path":"folders/Ext.yy",},
     {"name":"Firebase Firestore","order":16,"path":"folders/Firebase Firestore.yy",},
     {"name":"Extensions","order":1,"path":"folders/Firebase Firestore/Extensions.yy",},
     {"name":"Firebase REST API Library (Don't Touch)","order":1,"path":"folders/Firebase Firestore/Extensions/Firebase REST API Library (Don't Touch).yy",},
@@ -97,6 +96,7 @@
     {"name":"obj_gunpoint_heavy","order":3,"path":"objects/obj_gunpoint_heavy/obj_gunpoint_heavy.yy",},
     {"name":"obj_gunpoint_light","order":2,"path":"objects/obj_gunpoint_light/obj_gunpoint_light.yy",},
     {"name":"obj_gunpoint_med","order":1,"path":"objects/obj_gunpoint_med/obj_gunpoint_med.yy",},
+    {"name":"obj_highscore_draw","order":2,"path":"objects/obj_highscore_draw/obj_highscore_draw.yy",},
     {"name":"obj_mainmenu_controller","order":13,"path":"objects/obj_mainmenu_controller/obj_mainmenu_controller.yy",},
     {"name":"obj_menu_mouse_pointer","order":4,"path":"objects/obj_menu_mouse_pointer/obj_menu_mouse_pointer.yy",},
     {"name":"obj_mouse_pointer","order":8,"path":"objects/obj_mouse_pointer/obj_mouse_pointer.yy",},
