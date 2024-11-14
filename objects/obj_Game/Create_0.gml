@@ -26,6 +26,10 @@ enemy_array			= [
 function new_wave(){
 	alarm[1] = wave_timeout;
 	
+	if(obj_pause.is_paused){return;}
+	
+	instance_create_layer(500, 500, "Particles", obj_roundnumber_bubble);
+	
 	game_wave_clear += 1;
 	
 	var _array = scr_array_fix(game_wave_clear);
@@ -54,5 +58,15 @@ function new_wave(){
 		_pickup_x = choose(random_range(0, obj_player.x - 50),random_range(obj_player.x + 50, 1000));
 		_pickup_y = choose(random_range(0, obj_player.y - 50),random_range(obj_player.y + 50, 1000));
 		instance_create_layer(_pickup_x, _pickup_y, "Player", obj_pickup_shipup);
+	}
+}
+
+function game_over(){
+	is_gameover = true
+	alarm[0] = game_restart_timeout;
+	audio_stop_sound(obj_global_controller.selected_track);
+	if(points > obj_global_controller.highscore_tobeat){
+		obj_global_controller.push_score(points);
+		obj_global_controller.highscore_tobeat = int64(points);
 	}
 }

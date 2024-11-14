@@ -1,14 +1,9 @@
-print("obj_global_controller, async ","async");
-
-if (async_load[? "status"] == 200){
-	print("obj_global_controller, async ","status == 200");
+if (async_load[? "status"] == 200 && should_check_scores){
 	switch(async_load[? "type"]){
 		case "FirebaseFirestore_Collection_Listener":
-			print("obj_global_controller, async ","Query");
 			FirebaseFirestore(root).Query();
 			break;
 		case "FirebaseFirestore_Collection_Query":
-			print("obj_global_controller, async ","value");
 			data = [];
 			var _doc = async_load[? "value"];
 			var _data = json_parse(_doc);
@@ -20,6 +15,8 @@ if (async_load[? "status"] == 200){
 			}
 			
 			array_sort(data, sort_score);
+			should_check_scores = false;
+			highscore_tobeat = int64(data[4].score);
 			break;
 		default:
 			

@@ -16,9 +16,9 @@
   "exportToGame":true,
   "extensionVersion":"2.5.0",
   "files":[
-    {"$GMExtensionFile":"","%Name":"FirebaseFirestore.ext","constants":[],"copyToTargets":110,"filename":"FirebaseFirestore.ext","final":"","functions":[
+    {"$GMExtensionFile":"","%Name":"FirebaseFirestore.ext","constants":[],"copyToTargets":108,"filename":"FirebaseFirestore.ext","final":"FirebaseFirestore_SDK","functions":[
         {"$GMExtensionFunction":"","%Name":"FirebaseFirestore_SDK","argCount":0,"args":[1,],"documentation":"","externalName":"FirebaseFirestore_SDK","help":"FirebaseFirestore_SDK(fluent_json)","hidden":false,"kind":4,"name":"FirebaseFirestore_SDK","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":4,"name":"FirebaseFirestore.ext","order":[
+      ],"init":"FirebaseFirestore_SDK","kind":4,"name":"FirebaseFirestore.ext","order":[
         {"name":"FirebaseFirestore_SDK","path":"extensions/YYFirebaseFirestore/YYFirebaseFirestore.yy",},
       ],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
     {"$GMExtensionFile":"","%Name":"FirebaseFirestore.js","constants":[],"copyToTargets":32,"filename":"FirebaseFirestore.js","final":"","functions":[
@@ -50,7 +50,7 @@
   "macsourcedir":"",
   "name":"YYFirebaseFirestore",
   "options":[
-    {"$GMExtensionOption":"","%Name":"ProjectID","defaultValue":"","description":"Get this from your Firebase project's dashboard.","displayName":"Project ID","exportToINI":false,"extensionId":null,"guid":"58df55cc-27e3-4b18-9fac-8c00f6af6d38","hidden":false,"listItems":[],"name":"ProjectID","optType":2,"resourceType":"GMExtensionOption","resourceVersion":"2.0",},
+    {"$GMExtensionOption":"","%Name":"ProjectID","defaultValue":"383090293847","description":"Get this from your Firebase project's dashboard.","displayName":"Project ID","exportToINI":false,"extensionId":null,"guid":"58df55cc-27e3-4b18-9fac-8c00f6af6d38","hidden":false,"listItems":[],"name":"ProjectID","optType":2,"resourceType":"GMExtensionOption","resourceVersion":"2.0",},
     {"$GMExtensionOption":"","%Name":"Config","defaultValue":"SDKs_When_Available","description":"The SDK is limited to some platforms (check the manual)","displayName":"Mode (SDK or REST)","exportToINI":false,"extensionId":null,"guid":"d0bc7dea-7df6-4506-8c8a-78f04b930a4e","hidden":false,"listItems":[
         "SDKs_Only",
         "SDKs_When_Available",

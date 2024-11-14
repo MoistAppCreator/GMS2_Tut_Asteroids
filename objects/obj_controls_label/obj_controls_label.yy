@@ -9,8 +9,8 @@
   "name":"obj_controls_label",
   "overriddenProperties":[],
   "parent":{
-    "name":"Volume",
-    "path":"folders/Objects/MenuObjects/Volume.yy",
+    "name":"MenuObjects",
+    "path":"folders/Objects/MenuObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

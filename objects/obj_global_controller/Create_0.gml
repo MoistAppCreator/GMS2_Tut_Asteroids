@@ -10,21 +10,23 @@ audio_group_set_gain(Music, global.musicvolume, 1);
 
 selected_track = sndTrack1;
 
+
 root = "highscores";
 listener = FirebaseFirestore(root).Listener();
 data = -1;
+should_check_scores = true;
 highscore_tobeat = 200;
+
 
 sort_score = function(_a, _b){
 	return _b.score - _a.score
 }
 
-function push_score(){
+function push_score(_pushed_score = 0){
 	var _doc = json_stringify(
 		{
-			name: get_string_async("Name: ",""),
-			score: get_integer_async("Score: ", 0)
-			
+			name: "YYY",
+			score: _pushed_score		
 		}
 	);
 	FirebaseFirestore(root).Set(_doc);

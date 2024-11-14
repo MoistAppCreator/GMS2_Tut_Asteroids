@@ -5,7 +5,7 @@ draw_set_font(fnt_controls);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-var _val = "Mouse Pointer -------------------- Aim \nLeft Mouse ----------------------- Shoot \nRight Mouse/Space ----- Booster";
+var _val = "Mouse Pointer -------------------- Aim \nLeft Mouse ----------------------- Shoot \nRight Mouse/Space ----- Booster \nMiddle Mouse/Esc ---------- Pause";
 
 
 
