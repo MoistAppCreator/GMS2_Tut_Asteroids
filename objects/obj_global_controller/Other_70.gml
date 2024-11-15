@@ -16,8 +16,7 @@ if (async_load[? "status"] == 200 && should_check_scores){
 			
 			array_sort(data, sort_score);
 			should_check_scores = false;
-			//highscore_tobeat = int64(data[4].score);
-			highscore_tobeat = 100;
+			highscore_tobeat = int64(data[4].score);
 			break;
 		default:
 			

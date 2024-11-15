@@ -68,6 +68,7 @@ function game_over(){
 	audio_stop_sound(obj_global_controller.selected_track);
 	if(points > obj_global_controller.highscore_tobeat){
 		instance_activate_layer("Highscore_MenuItems");
+		instance_activate_layer("Highscore_Buttons");
 
 		return;
 	}

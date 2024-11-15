@@ -7,6 +7,8 @@ current_button_array		= [noone, noone];
 
 instance_deactivate_layer(highscoremenu_layer);
 instance_deactivate_layer(submenu_layer);
+instance_deactivate_layer("Highscore_Buttons");
+
 
 function pause_toggle(){
 	if(is_paused == true){
