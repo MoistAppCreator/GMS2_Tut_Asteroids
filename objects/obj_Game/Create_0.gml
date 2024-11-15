@@ -24,6 +24,8 @@ enemy_array			= [
 ];
 
 function new_wave(){
+	if(is_gameover){return;}
+	
 	alarm[1] = wave_timeout;
 	
 	if(obj_pause.is_paused){return;}
@@ -63,10 +65,16 @@ function new_wave(){
 
 function game_over(){
 	is_gameover = true
-	alarm[0] = game_restart_timeout;
 	audio_stop_sound(obj_global_controller.selected_track);
 	if(points > obj_global_controller.highscore_tobeat){
-		obj_global_controller.push_score(points);
-		obj_global_controller.highscore_tobeat = int64(points);
+		instance_activate_layer("Highscore_MenuItems");
+
+		return;
 	}
+	alarm[0] = game_restart_timeout;
+}
+
+function highscore_name_constructor(){
+	var _string = string("{0}{1}{2}",obj_letterplace_0.chosen_letter,obj_letterplace_1.chosen_letter,obj_letterplace_2.chosen_letter);
+	return _string;
 }

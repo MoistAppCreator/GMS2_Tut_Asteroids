@@ -23,13 +23,16 @@ sort_score = function(_a, _b){
 }
 
 function push_score(_pushed_score = 0){
-	var _doc = json_stringify(
-		{
-			name: "YYY",
-			score: _pushed_score		
-		}
-	);
-	FirebaseFirestore(root).Set(_doc);
+	var _str = obj_game.highscore_name_constructor();
+	print("obj_global_controller",_str);
+	
+	//var _doc = json_stringify(
+	//	{
+	//		name: _str,
+	//		score: _pushed_score		
+	//	}
+	//);
+	//FirebaseFirestore(root).Set(_doc);
 }
 
 
