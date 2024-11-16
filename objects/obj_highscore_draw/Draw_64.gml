@@ -5,6 +5,7 @@ draw_set_font(fnt_menu);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
+
 if (obj_global_controller.data == -1){
 	draw_text_color(x,y, "Loading...", c_white, c_white, c_white, c_white, 1);
 }else{

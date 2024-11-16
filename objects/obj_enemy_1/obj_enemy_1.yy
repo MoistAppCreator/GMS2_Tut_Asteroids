@@ -5,8 +5,8 @@
   "managed":true,
   "name":"obj_enemy_1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyTurret_Destroyed",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyShip1_Base",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"destroyed_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_Enemy_Turret_Destroyed","path":"sprites/spr_Enemy_Turret_Destroyed/spr_Enemy_Turret_Destroyed.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_Enemy_Turret_Destroyed",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"main_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_Enemy_Ship1_Base","path":"sprites/spr_Enemy_Ship1_Base/spr_Enemy_Ship1_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_Enemy_Ship1_Base",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"follow_player","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{

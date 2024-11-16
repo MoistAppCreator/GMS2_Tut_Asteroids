@@ -26,6 +26,8 @@ enemy_array			= [
 function new_wave(){
 	if(is_gameover){return;}
 	
+	wave_timeout += 10;
+	
 	alarm[1] = wave_timeout;
 	
 	if(obj_pause.is_paused){return;}
@@ -47,7 +49,7 @@ function new_wave(){
 	
 	if(obj_player.player_hp <= 1){
 	//spawn pickup
-		if(random(1) < 0.1){
+		if(random(1) < 0.3){
 		    _pickup_x = choose(random_range(0, obj_player.x - 50),random_range(obj_player.x + 50, 1000));
 			_pickup_y = choose(random_range(0, obj_player.y - 50),random_range(obj_player.y + 50, 1000));
 			instance_create_layer(_pickup_x, _pickup_y, "Player", obj_pickup_shield);
@@ -56,7 +58,7 @@ function new_wave(){
 	
 
 	//spawn shipup
-	if(random(1) < 1){
+	if(random(1) < 0.1){
 		_pickup_x = choose(random_range(0, obj_player.x - 50),random_range(obj_player.x + 50, 1000));
 		_pickup_y = choose(random_range(0, obj_player.y - 50),random_range(obj_player.y + 50, 1000));
 		instance_create_layer(_pickup_x, _pickup_y, "Player", obj_pickup_shipup);
